@@ -1,4 +1,1 @@
-x = 99
-print x 
-
-print y 
+print "HOC \tCHU DONG"""
