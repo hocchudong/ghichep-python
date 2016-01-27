@@ -1,4 +1,4 @@
-b = 5
-b %= 2
-print b
+x = 99
+print x 
 
+print y 
