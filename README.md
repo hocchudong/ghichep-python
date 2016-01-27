@@ -3,6 +3,9 @@
 
 #### Các nội dung ghi chép
 
+- Tài liệu dựa theo các đầu mục sau
+
+```sh 
 Introduction
 Variables and simple data types
 Control structures
@@ -12,6 +15,8 @@ Object Orientation
 Exceptions
 Functions and functional programing
 Unit testing
+```
+
 
 #### Tham khảo
 
