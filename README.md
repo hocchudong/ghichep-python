@@ -21,4 +21,5 @@ Unit testing
 #### Tham khảo
 
 http://pycubator.com/index.html | https://github.com/noamelf/pycubator
-Ebook: A Byte of Python,  Swaroop C H
+ 
+Ebook: A Byte of Python,  Swaroop C H (xem file byte_of_python01.2016.pdf trong thư mục tài liệu)
