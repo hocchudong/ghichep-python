@@ -1,1 +1,1 @@
-print "HOC \tCHU DONG"""
+print (r'C:\windows\newstuff\todo')
