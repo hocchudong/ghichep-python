@@ -11,3 +11,18 @@ print 'Toi ten la: ', ho_va_ten
 
 #
 print '{0:.4f}' .format(1.0/3)
+
+#
+print "HOC"
+print "CHU"
+print "DONG"
+
+#
+print "HOC",
+print "CHU",
+print "DONG"
+
+print '{:.3f}' .format(1.0/3)
+print '{:a^11}' .format('hello')
+print '{:a<10}'.format('test')
+print 'Is\'t  \t me'
