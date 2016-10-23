@@ -4,9 +4,7 @@
 
 ## Chương 2: Variables, expressions, and statement.
 
-`Bài 1:` Gõ các dòng dưới trong chương trình biên dịch đi kèm (khi cài python) và quan sát kết quả.
-
-- Ví dụ:
+Bài 1: Gõ các dòng dưới trong chương trình biên dịch đi kèm (khi cài python) và quan sát kết quả.
 
 	```sh
 	6 
@@ -22,14 +20,14 @@
 	- Trình soạn thảo (editor: Sublime, notepad++, Pycham ...) 
 	- Trình biên dịch (interpreter - IDLE, có sẵn khi cài đặt Python)
 
-`Bài 2:` Viết chương trình cho phép người dùng nhập tên của họ và hiển thị kèm theo lời chào mừng ra màn hình. 
+Bài 2: Viết chương trình cho phép người dùng nhập tên của họ và hiển thị kèm theo lời chào mừng ra màn hình. 
 
 	```sh
 	Nhap ten cua ban: Cong TO
 	Xin chao: Cong TO
 	```
 
-`Bài 3`: Viết chương trình cho phép nhập số giờ lao động và giá của một giờ để tính tổng tiền phải trả. 
+Bài 3: Viết chương trình cho phép nhập số giờ lao động và giá của một giờ để tính tổng tiền phải trả. 
 
 	```sh
 	Nhap so gio: 35
