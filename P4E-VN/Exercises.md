@@ -10,10 +10,15 @@
 	6 
 	x = 5
 	x + 1
-	````
+	```
 
-- Tham khảo: (1) http://prntscr.com/cxwq0g và  (2) http://prntscr.com/cxwpg9
-- Chú ý: có 2 cách thao tác với python: trình soạn thảo (editor: Sublime, notepad++, Pycham..) và trình biên dịch (interpreter - IDLE, có sẵn khi cài đặt Python)
+- Tham khảo: 
+	- (1) http://prntscr.com/cxwq0g 
+	- (2) http://prntscr.com/cxwpg9
+	
+- Chú ý: có 2 cách thao tác với python: 
+	- Trình soạn thảo (editor: Sublime, notepad++, Pycham ...) 
+	- Trình biên dịch (interpreter - IDLE, có sẵn khi cài đặt Python)
 
 
 `Bài 2:` Viết chương trình cho phép người dùng nhập tên của họ và hiển thị kèm theo lời chào mừng ra màn hình. 
