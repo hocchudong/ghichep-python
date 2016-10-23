@@ -6,6 +6,8 @@
 
 `Bài 1:` Gõ các dòng dưới trong chương trình biên dịch đi kèm (khi cài python) và quan sát kết quả.
 
+- Ví dụ:
+
 	```sh
 	6 
 	x = 5
@@ -19,7 +21,6 @@
 - Chú ý: có 2 cách thao tác với python: 
 	- Trình soạn thảo (editor: Sublime, notepad++, Pycham ...) 
 	- Trình biên dịch (interpreter - IDLE, có sẵn khi cài đặt Python)
-
 
 `Bài 2:` Viết chương trình cho phép người dùng nhập tên của họ và hiển thị kèm theo lời chào mừng ra màn hình. 
 
