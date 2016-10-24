@@ -4,7 +4,7 @@
 
 ## Chương 2: Variables, expressions, and statement.
 
-Bài 1: Gõ các dòng dưới trong chương trình biên dịch đi kèm (khi cài python) và quan sát kết quả.
+**Bài 1:** Gõ các dòng dưới trong chương trình biên dịch đi kèm (khi cài python) và quan sát kết quả.
 
  ```sh
  6 
