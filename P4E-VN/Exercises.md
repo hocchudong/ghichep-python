@@ -20,13 +20,12 @@
 	- Trình soạn thảo (editor: Sublime, notepad++, Pycham ...) 
 	- Trình biên dịch (interpreter - IDLE, có sẵn khi cài đặt Python)
 
-Bài 2: Viết chương trình cho phép người dùng nhập tên của họ và hiển thị kèm theo lời chào mừng ra màn hình. 
+**Bài 2:** Viết chương trình sử dụng hàm `input` (đối với python2.x là hàm `raw_input()` ) cho phép người dùng nhập tên và hiển thị kèm theo lời chào mừng ra màn hình. 
 
-	Nhap ten cua ban: **Cong TO**
+	Nhap ten cua ban: Cong TO
 	Xin chao: Cong TO
 
-
-Bài 3: Viết chương trình cho phép nhập số giờ lao động và giá của một giờ để tính tổng tiền phải trả. 
+**Bài 3:** Viết chương trình cho phép nhập số giờ lao động và giá của một giờ để tính tổng tiền phải trả. 
 
  ```sh
  Nhap so gio: 35
@@ -34,4 +33,23 @@ Bài 3: Viết chương trình cho phép nhập số giờ lao động và giá 
  Thanh tien: 96.25
  ```
 
-`Bài 4:`
+**Bài 4:** Giả sử gán các biến với các giá trị như bên dưới
+
+ ```sh
+ with = 17
+ height = 12.0
+ ```
+
+Với mỗi biểu thức dưới đây, hãy điền giá trị và kiểu của chúng 
+
+ ```sh
+ 1. with / 2
+ 2. with / 2.0
+ 3. height / 3
+ 4. 1 + 2 + 5
+ ```
+
+Sử dụng trình biên dịch của python (IDLE) để kiểm tra lại câu hỏi của bạn.
+
+**Bài 5:** Viết chương trình thực hiện việc chuyển đổi nhiệt độ từ `C` (Celsius) sang `F` (Fahrenheit), hiển thị kết quả của việc chuyển đổi này.
+
