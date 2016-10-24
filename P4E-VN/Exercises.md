@@ -6,11 +6,11 @@
 
 Bài 1: Gõ các dòng dưới trong chương trình biên dịch đi kèm (khi cài python) và quan sát kết quả.
 
-	```sh
-	6 
-	x = 5
-	x + 1
-	```
+ ```sh
+ 6 
+ x = 5
+ x + 1
+ ```
 
 - Tham khảo: 
 	- (1) http://prntscr.com/cxwq0g 
@@ -22,17 +22,17 @@ Bài 1: Gõ các dòng dưới trong chương trình biên dịch đi kèm (khi 
 
 Bài 2: Viết chương trình cho phép người dùng nhập tên của họ và hiển thị kèm theo lời chào mừng ra màn hình. 
 
-	```sh
-	Nhap ten cua ban: Cong TO
-	Xin chao: Cong TO
-	```
+ ```sh
+ Nhap ten cua ban: Cong TO
+ Xin chao: Cong TO
+ ```
 
 Bài 3: Viết chương trình cho phép nhập số giờ lao động và giá của một giờ để tính tổng tiền phải trả. 
 
-	```sh
-	Nhap so gio: 35
-	Gia tien cua 1 gio: 2.75
-	Thanh tien: 96.25
-	```
+ ```sh
+ Nhap so gio: 35
+ Gia tien cua 1 gio: 2.75
+ Thanh tien: 96.25
+ ```
 
 `Bài 4:`
