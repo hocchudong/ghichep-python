@@ -43,7 +43,7 @@
 Với mỗi biểu thức dưới đây, hãy điền giá trị và kiểu của chúng 
 
  ```sh
- 1. with / 2
+ 1. width / 2
  2. with / 2.0
  3. height / 3
  4. 1 + 2 + 5
@@ -81,7 +81,7 @@ Diem		Xep hang
 >=0.8 		B
 >=0.7 		C
 >=0.6 		D
-<6 			F
+<0.6			F
 ```
 
 Ví dụ:
@@ -99,6 +99,8 @@ Ví dụ:
  Nhap so diem: 10.0
  Nhap sai gia tri
 
- Nhap so diem: 5
+ Nhap so diem: 0.5
  F
  ```
+
+ Hãy thực thi chương trình nhiều lần như ví dụ trên để kiểm tra tính đúng đắn của chương trình.
