@@ -1,1 +1,0 @@
-# Ghi chép về tài liệu "Python for Everyone"
