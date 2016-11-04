@@ -12,13 +12,13 @@
  x + 1
  ```
 
-- Tham khảo về trình biên dịch trong Python (IDLE): 
+- Tham khảo về trình thông dịch trong Python (IDLE), ngoài ra còn trình thông dịch (compiler): 
 	- (1) http://prntscr.com/cxwq0g 
 	- (2) http://prntscr.com/cxwpg9
 	
 - Chú ý: có 2 cách thao tác với python: 
-	- Trình soạn thảo (editor: Sublime, notepad++, Pycham ...) 
-	- Trình biên dịch (interpreter - IDLE, có sẵn khi cài đặt Python)
+	- Scirpt: Thông qua trình soạn thảo (editor: Sublime, notepad++, Pycham ...) 
+	- Tương tác (Interactive): Thông qua trình thông dịch (interpreter - IDLE, có sẵn khi cài đặt Python)
 
 **Bài 2:** Viết chương trình sử dụng hàm `input()` (đối với python2.x là hàm `raw_input()` ) cho phép người dùng nhập tên và hiển thị kèm theo lời chào mừng ra màn hình. 
 
