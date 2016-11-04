@@ -17,3 +17,5 @@ for i in range(1,101):
         len()
     else:
         print "%d" %i
+
+#Chua xu ly xong - updating .....
