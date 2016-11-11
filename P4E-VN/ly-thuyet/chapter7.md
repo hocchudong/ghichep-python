@@ -8,7 +8,9 @@ Mở file.
 
 - Để mở một file chúng ra thực hiên cú pháp như sau ?
 
+```sh
 >>>f = open('name.txt','a')
+```
 
 - Trong đó :
  <ul>
@@ -20,33 +22,41 @@ Mở file.
 
 - Để viết file trước tiên chúng ta cần mở file trước , các cú pháp lần lượt như sau :
 
+```sh
 >>>f = open('phongvan.txt','a')
 >>>f.write("Toi la Pham Thanh Dat. Toi vua thay doi file phongvan.txt")
 >>>f.close()
+```
 
 - Ngoài tùy chọn a, chúng ta có thể tùy chọn w như sau :
 
+```sh
 >>>f = open('phongvan.txt','w')
 >>>f.write("Toi la Pham Thanh Dat. Toi vua thay doi file phongvan.txt")
 >>>f.close()
+```
 
 - Để đọc file, hay hiển thị file lên màn hình chúng ta thực hiện như sau :
 
+```sh
 >>>f = open('phongvan.txt','r')
 >>>f.read()
 >>>f.close()
+```
 
 - Một lưu ý nhỏ khi chúng ta ghi file trước khi đọc file thì vị trí con trỏ lúc đó đang ở cuối file lên sẽ không đọc 
 được, chúng ta cần phải chỉnh lại con trỏ trước khi đọc.
 
+```sh
 >>>f = open('phongvan.txt','a')
 >>>f.write('Them dong nay')
 >>>f.seek(0)
 >>>f.read()
 >>>f.close()
-```sh
-Sử dụng vòng lặp tương tác với file.
 ```
+
+- Sử dụng vòng lặp tương tác với file.
+
 
 - Sử dụng vòng lặp để đếm số dòng trong file
 
@@ -56,9 +66,9 @@ for line in f:
     dem = dem + 1
 print "so dong la : ", dem
 
-```sh
-Tìm kiếm thông qua file.
-```
+
+- Tìm kiếm thông qua file.
+
 
 - Giả sử có 1file phongvan.txt chúng ta cần tìm ra những ứng viên ở Hà Nội , chúng ra sẽ làm như sau :
 

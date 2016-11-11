@@ -4,14 +4,18 @@
 
 - Ví dụ về chuỗi :
 
+```sh
 >>>hoaqua = "Chanh"
 >>>teb = "Pham Thanh Dat"
+```
 
 - Lấy kí tự theo vị trí :
 
+```sh
 >>>a = "hanoi"
 >>>b = a[0]
 >>>print b
+```
 
 => Kết quả nhận được sẽ là 'h'.
 
@@ -21,8 +25,10 @@
 
 - Ví dụ như sau :
 
+```
 >>>a = "hanoi"
 >>>print len(a)
+```
 
 => Kết quả chúng ta thu được sẽ là : 5.
 
@@ -34,30 +40,34 @@ String Slice
 
 ví dụ :
 
+```
 >>>a = "Pham Thanh Dat"
 >>>print a[0:5]
 Pham
 >>>print a[6:12]
 Thanh
+```
 
 - Chúng ta cũng có thể lấy từ kí tự đầu đến giới hạn nào đó hoặc từ kí tự nào đó đến kí tự cuối như sau :
 
+```sh
 >>>print a [:5]
 Pham
 >>>print a[6:]
 Thanh Dat
-
-```sh
-Thay thế một kí tự trong chuỗi 
 ```
 
+
+- Thay thế một kí tự trong chuỗi 
+
+```sh
 >>>a = "Alo Dat"
 >>>new_a = 'B' + a[1:]
 Blo Dat
-
-```sh
-Sử dụng với vòng lặp và count.
 ```
+
+- Sử dụng với vòng lặp và count.
+
 
 a = "Pham Thanh Dat"
 dem = 0
@@ -67,9 +77,9 @@ for i in a:
     print "Số chữ a hiện có là ", dem
 print "Có tất cả số chữ a là : ", dem
 
-```sh
-Các phương thức với String.
-```
+
+- Các phương thức với String.
+
 
 - https://docs.python.org/2/library/stdtypes.html#
 string-methods.

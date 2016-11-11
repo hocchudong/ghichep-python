@@ -7,17 +7,19 @@ Upadating Variable.
 
 - Giả sử ta có biểu thứ sau :
 
+```sh
 >>>x = x + 1
-
+```
 - Ta có thể hiểu như sau . Ban đầu khởi tạo một biến x sau đó cộng thêm một giá trị và cập nhật lại giá trị của biến x.
 - Lưu ý rằng trước khi cập nhật lại giá trị của biến thì phải khai báo giá trị cho biến , có nghĩa là :
 
+```sh
 >>>x = 0
 >>>x = x + 1
-
-```sh
-Vòng lặp While.
 ```
+
+- Vòng lặp While.
+
 
 - Xét một ví dụ như sau :
 
