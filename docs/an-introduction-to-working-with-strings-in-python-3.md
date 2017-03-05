@@ -83,4 +83,15 @@ Kết quả là:
 	HOC CHU DONG 2017
 	```
 
+## Lặp chuỗi 
 
+- Sử dụng toán tử nhân `*` để lặp chuỗi cần thiết trong python3
+- Ví dụ: lặp chuỗi HOCCHUDONG 3 lần
+```sh
+print ("HOCCHUDONG " * 3)
+```
+
+- Kết quả là (chú ý dấu cách trong chuỗi)
+```sh
+HOCCHUDONG HOCCHUDONG HOCCHUDONG
+```
