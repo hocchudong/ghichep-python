@@ -60,3 +60,27 @@ Kết quả là:
 	HOC CHU DONG
 	```
 
+- Lưu ý: Khi thực hiện nối tiếp chuỗi cần chú ý kiểu của chuỗi phải phù hợp, ví dụ dưới sẽ gây ra lỗi bởi vì 2 chuỗi có kiểu khác nhau, một là `string` và một là `integer`, ví dụ:
+	```sh
+	print ("HOC CHU DONG" + 2017)
+	```
+
+- Kết quả là
+	```sh
+	>>> print ("HOC CHU DONG" + 2017)
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	TypeError: must be str, not int
+	```
+
+- Nhưng nếu xử lý để đưa `2017` vào dấu nháy đơn hoặc nháy kép thì sẽ có kết quả đúng, bởi vì lúc đó `2017` sẽ là chuỗi, ví dụ:
+	```sh
+	print ("HOC CHU DONG " + "2017")
+	```
+
+- Kết quả là
+	```sh
+	HOC CHU DONG 2017
+	```
+
+
