@@ -26,7 +26,7 @@
 	print ("Hoc Chu Dong")
 	```
 
-hoặc
+- hoặc
 	```sh
 	my_string = "Chu Dong Hoc"
 	print (my_string)
@@ -41,14 +41,14 @@ Kết quả là:
 
 - Để nối tiếp chuỗi trong Python3, ta sử dụng phép cộng (`+`)
 - Ví dụ dưới nối các chuỗi `HOC`, `CHU`, `DONG`
-```sh
-print ("HOC" + "CHU" + "DONG")
-```
+	```sh
+	print ("HOC" + "CHU" + "DONG")
+	```
 
-Kết quả là
-```sh
-HOCCHUDONG
-```
+- Kết quả là
+	```sh
+	HOCCHUDONG
+	```
 
 - Nếu muốn có các khoảng cách giữa các chuỗi, ta làm như sau
 	```sh

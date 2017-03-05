@@ -3,5 +3,7 @@
 - Tham khảo: https://www.digitalocean.com/community/users/ltagliaferri?primary_filter=tutorials
 
 ## Mục lục
-00. So sánh `python2` và `python3`
-01. Setup môi trường làm việc với python
+[So sánh `python2` và `python3`](./docs/)
+[Setup môi trường làm việc với python3](./docs/)
+[Tìm hiểu về các kiểu dữ liệu trong python3](./docs/understanding-data-types-in-python-3.md)
+[Giới thiệu về chuỗi trong python3](./docs/an-introduction-to-working-with-strings-in-python-3.md)
