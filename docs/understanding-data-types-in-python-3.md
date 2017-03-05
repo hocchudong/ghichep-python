@@ -111,7 +111,7 @@ Kết quả là:
 	```sh
 	my_list =  ['hong', 'lan', 'man', 'anh tuc']
 	```
-	
+
 - Để in ra list trên thực hiện như sau:
 	```sh
 	print (my_list)
@@ -142,6 +142,7 @@ Kết quả là:
 ĐANG CẬP NHẬT
 ```
 
+## Bài tập
 
 
 
