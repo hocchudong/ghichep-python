@@ -15,12 +15,12 @@
 - Kiểu dữ liệu quyết định giá trị thực sự của dữ liệu, ví dụ: số nguyên dương `(0, 1, 2, 3 ...)` hoặc số nguyên - kiểu intergers `(... -2, -1, 0, 1, 2 ...)` hoặc các số trong toán học như số PI `(PI = 3.14)`
 
 - Chúng ta có thể kết hợp các kiểu dữ liệu với nhau, ví dụ phép cộng của các số hoặc các kiểu dữ liệu, ví dụ
-```sh
-3 + PI
-```
+	```sh
+	3 + PI
+	```
 
 Kết quả là: 
-```sh
-3 + PI = 3 + 3,14 = 6.14
-```
+	```sh
+	3 + PI = 3 + 3,14 = 6.14
+	```
 
