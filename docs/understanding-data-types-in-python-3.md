@@ -66,7 +66,6 @@ Kết quả là:
 	my_bools = 5 > 9
 	print (my_bools)
 	```
-
 - Kết quả:
 	```sh
 	False
@@ -77,15 +76,15 @@ Kết quả là:
 - Giá trị là các chuỗi ký tự
 - Lưu ý: Kiểu chuỗi được được nằm trong dấu cặp dấu nháy đơn `''` hoặc nháy kép `""`
 - Ví dụ: 
-```sh
-my_string = "To Thanh Cong"
-print (my_string)
-```
+	```sh
+	my_string = "To Thanh Cong"
+	print (my_string)
+	```
 
 - Kết quả: 
-```sh
-To Thanh Cong
-```
+	```sh
+	To Thanh Cong
+	```
 
 ## List (Kiểu danh sách)
 
@@ -94,29 +93,29 @@ To Thanh Cong
 - Kiểu list là kiểu dữ liệu có thể thay đổi được (mutable)
 
 - Ví dụ kiểu danh sách là các số integers
-```sh
-[-3, -2, -1, 0, 1, 2, 3]
-```
+	```sh
+	[-3, -2, -1, 0, 1, 2, 3]
+	```
 - Ví dụ kiểu danh sách là các số float
-```sh
-[3.14, 9.23, 111.11, 312.12, 1.05]
-```
+	```sh
+	[3.14, 9.23, 111.11, 312.12, 1.05]
+	```
 - Ví dụ danh sách là các chuỗi
-```sh
-['hong', 'lan', 'man', 'anh tuc']
-```
+	```sh
+	['hong', 'lan', 'man', 'anh tuc']
+	```
 - Khi định nghĩa một list các chuỗi ta thực hiện như sau
-```sh
-my_list =  ['hong', 'lan', 'man', 'anh tuc']
-```
+	```sh
+	my_list =  ['hong', 'lan', 'man', 'anh tuc']
+	```
 - Để in ra list trên thực hiện như sau:
-```sh
-print (my_list)
-```
+	```sh
+	print (my_list)
+	```
 - Kết quả là:
-```sh
-['hong', 'lan', 'man', 'anh tuc']
-```
+	```sh
+	['hong', 'lan', 'man', 'anh tuc']
+	```
 
 ## Tuple 
 ```sh
