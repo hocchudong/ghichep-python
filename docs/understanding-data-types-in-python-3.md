@@ -118,11 +118,21 @@ Kết quả là:
 	```
 
 ## Tuple 
+
+- Giá trị nằm trong cặp đấu ngoặc đơn `(` và `)`
+- Giá trị của tuple là không thay đổi được (inmutable)
+
+
 ```sh
 ĐANG CẬP NHẬT
 ```
 
 ## Dictionaries - Kiểu từ điển
+
+- Là kiểu dữ liệu ánh xạ trong python (Python’s built-in mapping type)
+- Được biểu diễn bởi cặp `key` và `value`
+
+
 ```sh
 ĐANG CẬP NHẬT
 ```
