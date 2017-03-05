@@ -58,3 +58,76 @@ Kết quả là:
 	13.7
 	```
 
+## Booleans (Kiểu logic)
+
+- Kiểu logic có 2 giá trị là `True` và `False`
+- Ví dụ:
+	```sh
+	my_bools = 5 > 9
+	print (my_bools)
+	```
+
+- Kết quả:
+	```sh
+	False
+	```
+
+## String (Kiểu chuỗi)
+
+- Giá trị là các chuỗi ký tự
+- Lưu ý: Kiểu chuỗi được được nằm trong dấu cặp dấu nháy đơn `''` hoặc nháy kép `""`
+- Ví dụ: 
+```sh
+my_string = "To Thanh Cong"
+print (my_string)
+```
+
+- Kết quả: 
+```sh
+To Thanh Cong
+```
+
+## List (Kiểu danh sách)
+
+- Có giá trị là một danh sách (hay gọi là danh sách các phần tử)
+- Được nằm trong cặp dấu `[` và `]`
+- Kiểu list là kiểu dữ liệu có thể thay đổi được (mutable)
+
+- Ví dụ kiểu danh sách là các số integers
+```sh
+[-3, -2, -1, 0, 1, 2, 3]
+```
+- Ví dụ kiểu danh sách là các số float
+```sh
+[3.14, 9.23, 111.11, 312.12, 1.05]
+```
+- Ví dụ danh sách là các chuỗi
+```sh
+['hong', 'lan', 'man', 'anh tuc']
+```
+- Khi định nghĩa một list các chuỗi ta thực hiện như sau
+```sh
+my_list =  ['hong', 'lan', 'man', 'anh tuc']
+```
+- Để in ra list trên thực hiện như sau:
+```sh
+print (my_list)
+```
+- Kết quả là:
+```sh
+['hong', 'lan', 'man', 'anh tuc']
+```
+
+## Tuple 
+```sh
+ĐANG CẬP NHẬT
+```
+
+## Dictionaries - Kiểu từ điển
+```sh
+ĐANG CẬP NHẬT
+```
+
+
+
+
