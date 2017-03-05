@@ -96,22 +96,27 @@ Kết quả là:
 	```sh
 	[-3, -2, -1, 0, 1, 2, 3]
 	```
+
 - Ví dụ kiểu danh sách là các số float
 	```sh
 	[3.14, 9.23, 111.11, 312.12, 1.05]
 	```
+
 - Ví dụ danh sách là các chuỗi
 	```sh
 	['hong', 'lan', 'man', 'anh tuc']
 	```
+
 - Khi định nghĩa một list các chuỗi ta thực hiện như sau
 	```sh
 	my_list =  ['hong', 'lan', 'man', 'anh tuc']
 	```
+	
 - Để in ra list trên thực hiện như sau:
 	```sh
 	print (my_list)
 	```
+
 - Kết quả là:
 	```sh
 	['hong', 'lan', 'man', 'anh tuc']
