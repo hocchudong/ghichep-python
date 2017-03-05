@@ -24,3 +24,37 @@ Kết quả là:
 	3 + PI = 3 + 3,14 = 6.14
 	```
 
+- Có các kiểu dữ liệu phổ biến sau trong `Python3`
+
+## Số học (Numbers)
+- Tron python3 có hai kiểu số, kiểu `integer` và `float`
+- `Integer` là số mà `KHÔNG` có `chấm`, ví dụ: 10, 13, 19, 300
+- `Float` là số có dấu `chấm`, ví dụ: 19.0, 12.3 
+
+### Interger
+
+- Integer trong pythong được viết là `int`
+- Lưu ý dấu `,` và `.` trong python khi viết.
+- Ví dụ:
+	```sh
+	print (10)
+	```
+
+- Kết quả là
+	```sh
+	10
+	```
+
+### Floating-Point Numbers
+
+- `Floating-Point Numbers` trong python có kiểu là `float`
+- Ví dụ: 
+	```sh
+	print (13.7)
+	```
+
+- Kết quả là
+	```sh
+	13.7
+	```
+
