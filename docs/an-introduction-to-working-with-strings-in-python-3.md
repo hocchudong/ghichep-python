@@ -95,3 +95,80 @@ print ("HOCCHUDONG " * 3)
 ```sh
 HOCCHUDONG HOCCHUDONG HOCCHUDONG
 ```
+
+## Lưu trữ chuỗi trong các biến
+
+- Biến - `Variables` là các các ký tự được sử dụng để lưu các giá trị - dữ liệu.
+- Biến giống như các hộp rỗng để đựng các đồ vật.
+- Để lưu chữ các chuỗi (`strings`) trong biến, ta sử dụng phép gán `=`. 
+- Ví dụ dưới lưu trữ chuỗi bất kỳ trong biến `my_str`, chuỗi được bao đóng trong cặp dấu nháy đơn hoặc nháy kép.
+```sh
+my_str = "Hoc Chu Dong"
+
+print (my_str)
+```
+
+- Kết quả
+```sh
+Hoc Chu Dong
+```
+
+- Khi lưu chuỗi vào biến như trên, ta có thể sử dụng lại chuỗi thông qua biến (Hãy sử dụng 2 câu lệnh `print` để in ra giá trị trong biến `my_str`)
+
+## Bài tập
+
+### Bài 1: Sử dụng IDLE python trong windows hoặc CLI python trong linux để thực hành các yêu cầu sau với chuỗi.
+![IDLE-python-CLI](../images/bt-string00.png)
+
+#### Nhập chuỗi `HOC CHU DONG` màn hình
+
+- Nhập vào CLI của Python dòng dưới và quan sát kết quả
+	```sh
+	"HOC CHU DONG"
+	```
+
+- Nhập vào CLI của Python dòng dưới và quan sát kết quả
+	```sh
+	HOC CHU DONG
+	```
+
+- Thực hiện gép 2 chuỗi dưới và quan sát kết quả
+	```sh
+	"HOC CHU " + "DONG"
+	```
+
+- Thực hiện ghép 2 chuỗi dưới và quan sát kết quả
+	```sh
+	"HOC CHU DONG " + 2017
+	```
+
+- Thực hiện ghép 2 chuỗi dưới và quan sát kết quả
+	```sh
+	"HOC CHU DONG " + "2017"
+	```
+
+- Thực hiện ghép 2 chuỗi dưới và quan sát kết quả
+	```sh
+	"HOC CHU DONG " + "2017"
+	```
+
+- Thực hiện lặp một chuỗi dưới và quan sát kết quả
+	```sh
+	"HOC CHU DONG " * 3 
+	```
+
+- Thực hiện các lệnh dưới và quan sát kết quả
+	```sh
+	my_str = "HOC CHU DONG"
+
+	print (my_str)
+	```
+
+- Thực hiện các lệnh dưới và quan sát kết quả
+	```sh
+	my_str = "HOC CHU DONG"
+
+	print (my_str * 2)
+
+	print (my_str + "2017")
+	```
