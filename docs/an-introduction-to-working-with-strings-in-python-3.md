@@ -117,54 +117,58 @@ Hoc Chu Dong
 
 ## Bài tập
 
-### Bài 1: Sử dụng IDLE python trong windows hoặc CLI python trong linux để thực hành các yêu cầu sau với chuỗi.
-![IDLE-python-CLI](../images/bt-string00.png)
+### Bài 1: Luyện tập với chuỗi ở chế độ IDLE hoăc CLI của Python
 
-#### Nhập chuỗi `HOC CHU DONG` màn hình
+- Sử dụng IDLE python trong windows hoặc CLI python trong linux để thực hành các yêu cầu sau với chuỗi.
+- Python CLI của Linux
+![IDLE-python-CLI](../images/bt-string01.png)
 
-- Nhập vào CLI của Python dòng dưới và quan sát kết quả
+- IDLE cuả WINDOWS
+![IDLE-python-CLI](../images/bt-string02.png)
+
+- Câu 1.1: Nhập vào CLI của Python dòng dưới và quan sát kết quả
 	```sh
 	"HOC CHU DONG"
 	```
 
-- Nhập vào CLI của Python dòng dưới và quan sát kết quả
+- Câu 1.2: Nhập vào CLI của Python dòng dưới và quan sát kết quả
 	```sh
 	HOC CHU DONG
 	```
 
-- Thực hiện gép 2 chuỗi dưới và quan sát kết quả
+- Câu 1.3: Thực hiện gép 2 chuỗi dưới và quan sát kết quả
 	```sh
 	"HOC CHU " + "DONG"
 	```
 
-- Thực hiện ghép 2 chuỗi dưới và quan sát kết quả
+- Câu 1.4: Thực hiện ghép 2 chuỗi dưới và quan sát kết quả
 	```sh
 	"HOC CHU DONG " + 2017
 	```
 
-- Thực hiện ghép 2 chuỗi dưới và quan sát kết quả
+- Câu 1.4: Thực hiện ghép 2 chuỗi dưới và quan sát kết quả
 	```sh
 	"HOC CHU DONG " + "2017"
 	```
 
-- Thực hiện ghép 2 chuỗi dưới và quan sát kết quả
+- Câu 1.5: Thực hiện ghép 2 chuỗi dưới và quan sát kết quả
 	```sh
 	"HOC CHU DONG " + "2017"
 	```
 
-- Thực hiện lặp một chuỗi dưới và quan sát kết quả
+- Câu 1.6: Thực hiện lặp một chuỗi dưới và quan sát kết quả
 	```sh
 	"HOC CHU DONG " * 3 
 	```
 
-- Thực hiện các lệnh dưới và quan sát kết quả
+- Câu 1.7: Thực hiện các lệnh dưới và quan sát kết quả
 	```sh
 	my_str = "HOC CHU DONG"
 
 	print (my_str)
 	```
 
-- Thực hiện các lệnh dưới và quan sát kết quả
+- Câu 1.8: Thực hiện các lệnh dưới và quan sát kết quả
 	```sh
 	my_str = "HOC CHU DONG"
 
