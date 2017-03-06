@@ -13,13 +13,18 @@
 - Chuỗ trong python được nằm trong cặp dấu nháy đơn `''` hoặc cặp dấu nháy kép `""`
 - Ví dụ
 	```sh
-	"Day la mot chuoi"
+	"HOC CHU DONG"
 	```
 
 - Hoặc 
 	```sh
-	'Mot chuoi trong python'
+	'HOC CHU DONG'
 	```
+
+- Nếu thực hiện trong IDLE (Windows) hoặc Python CLI (linux) thì sẽ có output như bên dưới
+```sh
+'HOC CHU DONG'
+```
 
 - Để in ra một chuỗi trong python ta làm như sau:
 	```sh
@@ -120,7 +125,7 @@ Hoc Chu Dong
 ### Bài 1: Luyện tập với chuỗi ở chế độ IDLE hoăc CLI của Python
 
 - Sử dụng IDLE python trong windows hoặc CLI python trong linux để thực hành các yêu cầu sau với chuỗi.
-- Python CLI của Linux
+- Python CLI của 
 ![IDLE-python-CLI](../images/bt-string01.png)
 
 - IDLE cuả WINDOWS
