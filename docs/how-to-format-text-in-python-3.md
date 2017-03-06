@@ -11,7 +11,7 @@
 
 - Có hai khái niệm cần phân biệt: `string literal` và `string value`.
 - `String literal`: Là chuỗi mà chúng ta nhìn thấy trong mã nguồn của python
-- `String value`: Là chuỗi được hiển thị ra trong lệnh ping
+- `String value`: Là chuỗi được hiển thị ra trong lệnh `print`
 - Ví dụ: Gõ dòng sau trong IDLE hoặc python CLI
 	```sh
 	print ("Hoc Chu Dong \n 2017")
@@ -38,7 +38,7 @@
 	print my_str
 	```
 
-### Chuỗi trên nhiều dòng
+## Chuỗi trên nhiều dòng
 
 - Để in chuỗi trên nhiều dòng ta sử dụng cặp ba dấu nháy đơn `'''` hoặc ba dấu nháy kép `"""`, ví dụ:
 	```sh
@@ -59,5 +59,16 @@
 	2017
 	```
 
+## Ký tự ngắt trong chuỗi
 
+- Trong chuỗi có các ký tự ngắt chuỗi cần chú ý, các ký tự này được được bắt đầu bởi ký tự `\`
+- Quan sát bảng dưới để biết được chức năng của các ký tự ngắt chuỗi trong python
+![Ngắt chuỗi](../images/bt-string03.png)
 
+- Gõ các dòng dưới vào CLI của python
+
+```sh
+print 'Hoc chu \t dong'
+
+print 'Hoc chu \n dong'
+```
