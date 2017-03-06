@@ -91,15 +91,16 @@ Kết quả là:
 ## Lặp chuỗi 
 
 - Sử dụng toán tử nhân `*` để lặp chuỗi cần thiết trong python3
+- Số được nhân với chuỗi là một số nguyên dương.
 - Ví dụ: lặp chuỗi HOCCHUDONG 3 lần
-```sh
-print ("HOCCHUDONG " * 3)
-```
+	```sh
+	print ("HOCCHUDONG " * 3)
+	```
 
 - Kết quả là (chú ý dấu cách trong chuỗi)
-```sh
-HOCCHUDONG HOCCHUDONG HOCCHUDONG
-```
+	```sh
+	HOCCHUDONG HOCCHUDONG HOCCHUDONG
+	```
 
 ## Lưu trữ chuỗi trong các biến
 
@@ -107,15 +108,15 @@ HOCCHUDONG HOCCHUDONG HOCCHUDONG
 - Biến giống như các hộp rỗng để đựng các đồ vật.
 - Để lưu chữ các chuỗi (`strings`) trong biến, ta sử dụng phép gán `=`. 
 - Ví dụ dưới lưu trữ chuỗi bất kỳ trong biến `my_str`, chuỗi được bao đóng trong cặp dấu nháy đơn hoặc nháy kép.
-```sh
-my_str = "Hoc Chu Dong"
+	```sh
+	my_str = "Hoc Chu Dong"
 
-print (my_str)
-```
+	print (my_str)
+	```
 
 - Kết quả
-```sh
-Hoc Chu Dong
+	```sh
+	Hoc Chu Dong
 ```
 
 - Khi lưu chuỗi vào biến như trên, ta có thể sử dụng lại chuỗi thông qua biến (Hãy sử dụng 2 câu lệnh `print` để in ra giá trị trong biến `my_str`)
@@ -126,9 +127,11 @@ Hoc Chu Dong
 
 - Sử dụng IDLE python trong windows hoặc CLI python trong linux để thực hành các yêu cầu sau với chuỗi.
 - Python CLI của 
+
 ![IDLE-python-CLI](../images/bt-string01.png)
 
 - IDLE cuả WINDOWS
+
 ![IDLE-python-CLI](../images/bt-string02.png)
 
 - Câu 1.1: Nhập vào CLI của Python dòng dưới và quan sát kết quả
