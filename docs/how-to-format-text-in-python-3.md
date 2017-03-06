@@ -72,3 +72,16 @@ print 'Hoc chu \t dong'
 
 print 'Hoc chu \n dong'
 ```
+
+## Chuỗi dữ liệu thô `Raw string`
+
+- Chuỗi dữ liệu thô là chuỗi nhập vào như nào thì in ra như thế
+- Sử dụng ký tự `r` trước chuỗi để thực hiện xử lý chuỗi dữ liệu thô, ví dụ
+	```sh
+	print r"Hoc chu &**^$#^*(\"\")) dong"
+	```
+
+- Kết quả là
+	```sh
+	Hoc chu &**^$#^*(\"\")) dong
+	```
