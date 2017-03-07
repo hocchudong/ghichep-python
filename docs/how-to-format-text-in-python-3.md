@@ -65,7 +65,7 @@
 - Quan sát bảng dưới để biết được chức năng của các ký tự ngắt chuỗi trong python
 ![Ngắt chuỗi](../images/bt-string03.png)
 
-- Gõ các dòng dưới vào CLI của python
+- Gõ các dòng dưới vào CLI của python và quan sát kết quả
 
 ```sh
 print 'Hoc chu \t dong'
@@ -85,3 +85,9 @@ print 'Hoc chu \n dong'
 	```sh
 	Hoc chu &**^$#^*(\"\")) dong
 	```
+
+## Kết luận
+
+- Bài này giúp chúng ta định dạng văn bản bằng cách sử dụng string
+- Học về các kỹ thuật dấu ngắt dòng, ký tự `\`
+- Học về kỹ thuật in ra dòng nguyên bản `raw` trong python
