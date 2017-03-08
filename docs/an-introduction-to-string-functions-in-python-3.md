@@ -42,41 +42,40 @@
 - Phương thức này hữu ích khi sử dụng để tạo các form nhập từ người dùng. Ví dụ đối mã quốc gia thì bạn chỉ cho phép là các ký tự số, khi hỏi về tên người thì chỉ cho phép là các ký tự chữ.
 - Dưới là bảng của các phương thức làm việc với chuỗi và trả về kết quả là `True` hoặc `Flase`
 
-[string-boolean](../images/bt-string04.png)
+![string-boolean](../images/bt-string04.png)
 
 - Hãy thử ví dụ dưới dây trong IDLE trong windows hoặc Python CLI
-```sh
-so = "2017"
-chuoi = "hocchudong"
+	```sh
+	so = "2017"
+	chuoi = "hocchudong"
 
-print (so.isnumeric())
-print (chuoi.isnumeric())
-```
+	print (so.isnumeric())
+	print (chuoi.isnumeric())
+	```
 
 - Kết quả là
-```sh
-True
-False
-```
+	```sh
+	True
+	False
+	```
 
 - Thử tiếp ví dụ dưới
-```sh
-tieu_de = "Hoc Chu Dong"
+	```sh
+	tieu_de = "Hoc Chu Dong"
 
-print (tieu_de.istitle())
-``` 
+	print (tieu_de.istitle())
+	``` 
 
 	- Kết quả là:
 		```sh
 		True
 		```
 - Tiếp tục ví dụ dưới
-```sh
-chuoi1 = "hoc chu dong"
-print (chuoi1.islower())
-print (chuoi1.isupper())
-```
-
+	```sh
+	chuoi1 = "hoc chu dong"
+	print (chuoi1.islower())
+	print (chuoi1.isupper())
+	```
 
 	- Kết quả là:
 		```sh
@@ -110,7 +109,7 @@ print (chuoi1.isupper())
 	print (" ".join(my_str))
 	```
 
-- Kết quả là ta sẽ có một chuỗi đơn:
+- Kết quả là ta sẽ có một chuỗi đơn, ký tự khoảng cách sẽ chèn vào giữa các ký tự của chuỗi:
 	```sh
 	h o c c h u d o n g
 	```
@@ -124,4 +123,47 @@ print (chuoi1.isupper())
 - Kết quả là:
 	```sh
 	ngod uhc coh
+	```
+
+- Phương thức `str.join()` có tác dụng phối hợp list của một string thành một string đơn. 
+- Ví dụ dưới sẽ khai báo list của một string và thực hiện chuyển nó thành một chuỗi đơn (hãy chú ý phần này để sử dụng trong các kỹ thuật ghép link)
+	```sh
+	my_list = ["hoc", "chu", "dong"]
+	# In ra list
+	print (my_list)
+
+	# In ra chuoi sau khi su dung str.join()
+	print (",".join(my_list))
+	````
+
+	- Kết quả là:
+		```sh
+		['hoc', 'chu', 'dong']
+		hoc, chu, dong
+		```
+
+### `str.split()`
+
+- Được sử dụng để cắt một `string` thành một `list`
+- `str.split()` có đối số truyền vào là một ký tự, nếu không truyền vào thì nó sử dụng ký tự rỗng.
+- Ví dụ: 
+	```sh
+	my_str = "hoc chu dong"
+	print (my_str.split())
+	```
+
+	- Kết quả là:
+		```sh
+		['hoc', 'chu', 'dong']
+		```
+
+- Thay ký tự rỗng ở trên bằng ký tự `o` và quan sát kết quả
+	```sh
+	my_str = "hoc chu dong"
+	print (my_str.split("o"))
+	```
+
+	- Kết quả là sẽ chia làm 03 phần  tử trong list dưới, ký tự `o` sẽ bị cắt đi.
+	```
+	['h', 'c chu d', 'ng']
 	```
