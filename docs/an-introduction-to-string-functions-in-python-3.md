@@ -1,4 +1,7 @@
 # Giới thiệu các hàm về chuỗi trong python
+
+- Tham khảo
+
 ## Giới thiệu
 
 - Python có một số hàm được dựng sẵn (built-in) dành cho kiểu dữ liệu là string.
@@ -41,3 +44,84 @@
 
 [string-boolean](../images/bt-string04.png)
 
+- Hãy thử ví dụ dưới dây trong IDLE trong windows hoặc Python CLI
+```sh
+so = "2017"
+chuoi = "hocchudong"
+
+print (so.isnumeric())
+print (chuoi.isnumeric())
+```
+
+- Kết quả là
+```sh
+True
+False
+```
+
+- Thử tiếp ví dụ dưới
+```sh
+tieu_de = "Hoc Chu Dong"
+
+print (tieu_de.istitle())
+``` 
+
+	- Kết quả là:
+		```sh
+		True
+		```
+- Tiếp tục ví dụ dưới
+```sh
+chuoi1 = "hoc chu dong"
+print (chuoi1.islower())
+print (chuoi1.isupper())
+```
+
+
+	- Kết quả là:
+		```sh
+		True
+		False
+		```
+
+## Phương thức xác định độ dài của chuỗi `len()`
+
+- Python cung cấp phương thức `len()` để xác định độ dài của chuỗi
+- Ví dụ: Xác định độ dài của chuỗi dưới
+	```sh
+	my_str = "Hoc chu dong"
+	print (len(my_str))
+	```
+
+- Kết quả là:
+	```sh
+	12
+	```
+
+- Trong ví dụ trên ta có 10 ký tự chữ cái và 2 khoảng trống, tổng là 12 ký tự tất cả.
+
+## Phương thức `join(), split(), và replace()` trong chuỗi
+
+### `join()`
+- Phương thức `join()` sẽ ghép 2 chuỗi với nhau và chuyển thành một chuỗi khác.
+- Ví dụ: ghép chuỗi `hocchudong` và chuỗi có ký tự trống `" "`
+	```sh
+	my_str = "hocchudong"
+	print (" ".join(my_str))
+	```
+
+- Kết quả là ta sẽ có một chuỗi đơn:
+	```sh
+	h o c c h u d o n g
+	```
+
+- Ta cũng có thể phương thức `join()` để đảo ngược 1 chuỗi thành chuỗi mới, ví dụ:
+	```sh
+	my_str = "hoc chu dong"
+	print ("".join(reversed(my_str)))
+	```
+
+- Kết quả là:
+	```sh
+	ngod uhc coh
+	```
