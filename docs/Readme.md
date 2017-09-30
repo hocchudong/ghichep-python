@@ -9,4 +9,5 @@
 - [Giới thiệu về chuỗi trong python3](../docs/an-introduction-to-working-with-strings-in-python-3.md)
 - [Giới thiệu về định dạng text trong python3](../docs/how-to-format-text-in-python-3.md)
 - [Giới thiệu các hàm của string trong python](../docs/an-introduction-to-string-functions-in-python-3.md)
+- [Cách đánh index và cắt strong trong python](../docs/how-to-index-and-slice-strings-in-python-3.md)
 
