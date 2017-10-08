@@ -4,10 +4,10 @@
 
 Chức năng của secondary memory (ổ cứng, USB ...) trong máy tính là gì
 
-- a) Execute all of the computation and logic of the program
-- b) Retrieve web pages over the Internet
-- c) Store information for the long term, even beyond a power cycle
-- d) Take input from the user
+- a) Thực thi tất cả các phép toán và logic của chương trình
+- b) Trả về nội dung của một trang web qua Internet
+- c) Lưu trữ thông tin trong thời gian dài, thậm chí ngay cả khi khởi động lại máy tính.
+- d) Nhận kết quả từ người dùng đưa vào.
 
 ### Bài 2:
 
@@ -41,8 +41,37 @@ SyntaxError: invalid syntax
 
 ### Bài 6:
 
+Nơi nào trong máy tính sẽ lưu biến `x` khi dòng dưới trong python được kết thúc.
+
+```sh
+x = 23 
+```
+  - a) CPU - Central processing unit
+  - b) Main memory - Bộ nhớ RAM
+  - c) Secondary memory - CPU hoặc USB
+  - d) Thiết bị Input -  Bàn phím
+  - e) Thiệt bị Output - Màn hình 
+
 ### Bài 7:
+- Chương trình dưới đây sẽ in ra kết quả gì
+
+```sh
+x = 43
+x = x + 1
+print(x)
+```
 
 ### Bài 8:
+- Giải thích từng thành phần sau đây tương ứng với khả năng của con người
+  - (1) Central processing unit 
+  - (2) Main memory
+  - (3) Secondary memory
+  - (4) Input device
+  - (5) Output device
+
+ - Ví dụ: Con người tương đương với Central processing unit của máy tính.
+
 
 ### Bài 9:
+
+ Làm thế nào để xử lý thông báo `"Syntax Error" khi gặp phải?
