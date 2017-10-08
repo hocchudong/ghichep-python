@@ -8,6 +8,5 @@ Chương trình là gì?
 ```
 
 ### Bài 3:
-```sh
+
 Sự khác nhau giữa `compiler` và `interpreter` là gì?
-```
