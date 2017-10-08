@@ -74,4 +74,4 @@ print(x)
 
 ### Bài 9:
 
- Làm thế nào để xử lý thông báo `"Syntax Error" khi gặp phải?
+ Làm thế nào để xử lý thông báo `"Syntax Error"` khi gặp phải?
