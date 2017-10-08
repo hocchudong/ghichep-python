@@ -1,0 +1,1 @@
+## Các ghi chép về seri bài viết về python tại digitalocean
