@@ -1,0 +1,1 @@
+## Các ghi chép trong cuốn `python for everyone`
