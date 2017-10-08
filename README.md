@@ -1,5 +1,7 @@
 # Outline for learning Python
 
+0. Chapter 0: Why should you learn to write programs?
+
 1. Chaper 1: Variables, expressions, and statements
 
 2. Chaper 2: Conditional execution
