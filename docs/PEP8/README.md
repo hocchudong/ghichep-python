@@ -99,7 +99,7 @@ và thêm "\\" rồi xuống dòng tiếp theo viết tiếp.
 
 Với code có các biểu thức, toán tử, toán hạng dài thì ngắt trước toán hạng.
 
-Ví dụ:
+*Ví dụ:*
 
 ```
 # No: operators sit far away from their operands
@@ -301,8 +301,7 @@ Mỗi dòng comment bắt đầu với `#` và một khoảng trắng. Nếu com
 
 Sử dụng inline comment ngắn gọn và có ý nghĩa. Nó nên được cách ra ít nhất 2 khoảng trắng so với câu lệnh, tiếp đó là dấu `#` và một khoảng trắng.
 
-Viết docstrings sử dụng cặp dấu """ cho tất cả các module, function, class, method public. Các method non-public thì không cần docstrings nhưng cũng nên có dòng comment để mô tả nó làm gì.
-Comment này nên đặt sau dòng `def`. Chi tiết về docstrings xem thêm tại [PEP-257](https://www.python.org/dev/peps/pep-0257/)
+Viết docstrings sử dụng cặp dấu """ cho tất cả các module, function, class, method public. Các method non-public thì không cần docstrings nhưng cũng nên có dòng comment để mô tả nó làm gì. Comment này nên đặt sau dòng `def`. Chi tiết về docstrings xem thêm tại [PEP-257](https://www.python.org/dev/peps/pep-0257/)
 
 #### Module level dunders
 
@@ -310,6 +309,7 @@ Module level "dunders" là những module với 2 dấu gạch dưới ở đầ
 Nó nên được đặt sau docstrings của module và trước import, ngoại trừ import `__future__`.
 
 Ví dụ:
+
 ```
 """This is the example module.
 
@@ -338,9 +338,25 @@ Tên 1 ký tự nên tránh I, L, O vì chúng nhìn dễ lẫn với một vài
 
 Tên package viết thường, ngắn gọn, không nên dùng _
 
-Tên module, function viết thường, ngắn gọn.
+Tên module, function viết thường, ngắn gọn và được dùng "_" để phân biệt trong trường hợp tên có hai từ.
 
 Tên class viết theo kiểu CapWords
+
+#### Kiểu import
+
+Không nên import tớ tận Class, mà chỉ import đến package.
+
+*Ví dụ:* Khi có một class Bar nằm trong package tên foo.py, thì khi muốn sử dụng class Bar thì ta nên import như sau:
+
+```
+import foo
+
+name = foo.Bar()
+
+```
+
+Nên chỉ rõ đường dẫn khi import, không nên dùng kiểu `import *` hoặc `import .`
+
 
 #### Công cụ kiểm tra
 
@@ -350,7 +366,7 @@ Tên class viết theo kiểu CapWords
 - [coala](https://github.com/coala/coala)
 - [pep8online](http://pep8online.com/)
 
-Trên một vài IDE như Pycharm cũng có tích hợp sẵn kiểm tra PEP-8.  
+Trên một vài IDE như Pycharm cũng có tích hợp sẵn kiểm tra PEP-8.
 
 #### Ref
 
