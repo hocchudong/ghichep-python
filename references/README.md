@@ -1,3 +1,3 @@
-Some ref links: 
-- https://www.tutorialspoint.com/python/
-- http://www.pythonlearn.com/
+Main ebook for this course
+
+- Ebook_py4e_python3.pdf
